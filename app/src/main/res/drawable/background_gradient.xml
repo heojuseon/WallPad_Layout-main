@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:type="linear"
+        android:startColor="#010a13"
+        android:endColor="#05192b"
+        android:angle="135" />
+
+
+</shape>
+
+<!-- 속성 -->
+<!-- android:shape="rectangle -> 사각형 모양-->
+<!--그라데이션 타입(android:type="liner") -> 일직선으로 표현된 그라데이션, 종류(liner, radial, sweep...)-->
+<!-- android:angle -> 그림의 각도를 나타내며, 예를 들어 90 인경우 시계 반대방향으로 이미지 회전(그라데이션이
+    위에서 아래로 적용)-->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:innerRadiusRatio="2.7"
+            android:thicknessRatio="12"
+            android:shape="ring"
+            android:useLevel="false"
+            android:type="sweep">
+            <solid android:color="#9E9E9E" />
+        </shape>
+<!--     <solid android:color="#9E9E9E" /> -> 이부분 없어도 되긴함   -->
+    </item>
+
+<!--  innerRadiusRatio : (바깥 원 지름) / (내부 원 반지름)을 의미 -> 원형의 크기가 조절됨 -->
+<!--  thicknessRatio : 두께 조절 -> (바깥 원 지름) / (ring 두께)을 의미, 숫자가 커질 수록 두께 작아짐-->
+
+
+
+<!--  fromDegrees : 회전 시작 각도  -->
+<!--  toDegrees : 회전 끝 각도  -->
+<!--  위 값이 없으면 충전량이 어디서 시작하는지 설정 할 수 없음  -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+
+            <shape
+                android:innerRadiusRatio="2.7"
+                android:thicknessRatio="12"
+                android:shape="ring"
+                android:angle="0"
+                android:type="sweep">
+                <corners android:radius="8dp"/>
+            </shape>
+
+
+        </rotate>
+
+    </item>
+
+</layer-list>
