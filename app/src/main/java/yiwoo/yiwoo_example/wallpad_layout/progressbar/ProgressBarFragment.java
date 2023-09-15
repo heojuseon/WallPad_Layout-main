@@ -1,4 +1,4 @@
-package yiwoo.yiwoo_example.wallpad_layout;
+package yiwoo.yiwoo_example.wallpad_layout.progressbar;
 
 import android.os.Bundle;
 
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import yiwoo.yiwoo_example.wallpad_layout.R;
 
 public class ProgressBarFragment extends Fragment {
 

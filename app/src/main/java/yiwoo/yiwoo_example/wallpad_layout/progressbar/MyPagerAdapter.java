@@ -1,9 +1,13 @@
-package yiwoo.yiwoo_example.wallpad_layout;
+package yiwoo.yiwoo_example.wallpad_layout.progressbar;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import yiwoo.yiwoo_example.wallpad_layout.progressbar.ProgressBarFragment;
+import yiwoo.yiwoo_example.wallpad_layout.progressbar.SecondProgressBarFragment;
+import yiwoo.yiwoo_example.wallpad_layout.progressbar.ThirdProgressBarFragment;
 
 public class MyPagerAdapter extends FragmentStateAdapter {
 

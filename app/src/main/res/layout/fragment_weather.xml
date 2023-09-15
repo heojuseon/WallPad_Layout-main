@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherFragment">
+
+        <TextView
+            android:id="@+id/textView2"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29.3dp"
+            android:gravity="center_horizontal"
+            android:text="12"
+            android:textColor="#ffffff"
+            android:textSize="69sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142.1dp"
+            android:gravity="center_horizontal"
+            android:text="30"
+            android:textColor="#ffffff"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="239.8dp"
+            android:layout_marginTop="23.9dp"
+            android:gravity="center_horizontal"
+            android:text="AM"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="239.8dp"
+            android:layout_marginTop="64.2dp"
+            android:text="2022년 7월 5일"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView6"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="344.1dp"
+            android:layout_marginTop="64.2dp"
+            android:gravity="end"
+            android:text="금요일"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView7"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37.3dp"
+            android:layout_marginTop="212.9dp"
+            android:gravity="center_horizontal"
+            android:text="구름조금"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView16"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="154.6dp"
+            android:layout_marginTop="253.4dp"
+            android:text="일"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView20"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="284.2dp"
+            android:layout_marginTop="253.4dp"
+            android:text="월"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView8"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27.8dp"
+            android:layout_marginTop="253.4dp"
+            android:text="토"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView9"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75.1dp"
+            android:layout_marginTop="257.4dp"
+            android:text="27"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView17"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="201.9dp"
+            android:layout_marginTop="257.4dp"
+            android:text="27"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView21"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="331.5dp"
+            android:layout_marginTop="257.4dp"
+            android:text="27"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView10"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="102.1dp"
+            android:layout_marginTop="257.4dp"
+            android:text="23"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView19"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="257.4dp"
+            android:text="23"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView23"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="358.6dp"
+            android:layout_marginTop="257.4dp"
+            android:text="23"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView11"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96.1dp"
+            android:layout_marginTop="255.4dp"
+            android:text="/"
+            android:textColor="#70888a"
+            android:textSize="8sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView18"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="223dp"
+            android:layout_marginTop="255.4dp"
+            android:text="/"
+            android:textColor="#70888a"
+            android:textSize="8sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView22"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="352.6dp"
+            android:layout_marginTop="255.4dp"
+            android:text="/"
+            android:textColor="#70888a"
+            android:textSize="8sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView12"
+            app:fontFamily="@font/spoqahansansneo_medium"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="131.2dp"
+            android:layout_marginTop="141.4dp"
+            android:gravity="center_horizontal"
+            android:text="26"
+            android:textColor="#ffffff"
+            android:textSize="51sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView13"
+            app:fontFamily="@font/spoqahansansneo_medium"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="215.9dp"
+            android:text="27"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            app:fontFamily="@font/spoqahansansneo_bold"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="163.1dp"
+            android:layout_marginTop="214.2dp"
+            android:text="/"
+            android:textColor="#70888a"
+            android:textSize="11sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView15"
+            app:fontFamily="@font/spoqahansansneo_medium"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173.4dp"
+            android:layout_marginTop="215.9dp"
+            android:text="23"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView24"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235.1dp"
+            android:layout_marginTop="144.5dp"
+            android:text="미세먼지"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView25"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235.1dp"
+            android:layout_marginTop="182dp"
+            android:text="초미세먼지"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView26"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235.1dp"
+            android:layout_marginTop="218.1dp"
+            android:text="통합대기"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView27"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340.1dp"
+            android:layout_marginTop="144.5dp"
+            android:text="좋음"
+            android:textColor="#9aa0f8"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView28"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340.1dp"
+            android:layout_marginTop="182dp"
+            android:text="보통"
+            android:textColor="#87d8b6"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView29"
+            app:fontFamily="@font/spoqahansansneo_thin"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340.1dp"
+            android:layout_marginTop="218.1dp"
+            android:text="매우나쁨"
+            android:textColor="#d684d0"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@drawable/img_clock_dot"
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="121.3dp"
+            android:layout_marginTop="41dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            app:srcCompat="@drawable/ic_weather_m_cloud"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="33.3dp"
+            android:layout_marginTop="139.5dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            app:srcCompat="@drawable/ic_weather_cloudy_s"
+            android:layout_width="26.7dp"
+            android:layout_height="26.7dp"
+            android:layout_marginStart="44.8dp"
+            android:layout_marginTop="250.3dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            app:srcCompat="@drawable/ic_weather_cloudy_s"
+            android:layout_width="26.7dp"
+            android:layout_height="26.7dp"
+            android:layout_marginStart="171.3dp"
+            android:layout_marginTop="250.3dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            app:srcCompat="@drawable/ic_weather_cloudy_s"
+            android:layout_width="26.7dp"
+            android:layout_height="26.7dp"
+            android:layout_marginStart="300.9dp"
+            android:layout_marginTop="250.3dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="89.9dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            app:srcCompat="@drawable/ic_weather_temp_l"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="191.2dp"
+            android:layout_marginTop="147.3dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="6.8dp"
+            android:layout_height="6.8dp"
+            android:layout_marginStart="153.9dp"
+            android:layout_marginTop="217.6dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="6.8dp"
+            android:layout_height="6.8dp"
+            android:layout_marginStart="196.4dp"
+            android:layout_marginTop="217.6dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="216.8dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="243.8dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="346.4dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            app:srcCompat="@drawable/ic_weather_temp_s"
+            android:layout_width="4.4dp"
+            android:layout_height="4.4dp"
+            android:layout_marginStart="373.3dp"
+            android:layout_marginTop="258.4dp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            app:srcCompat="@drawable/ic_fd_good"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="327.1dp"
+            android:layout_marginTop="149.5dp" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            app:srcCompat="@drawable/ic_fd_nor"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="327.1dp"
+            android:layout_marginTop="187dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            app:srcCompat="@drawable/ic_fd_vb"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="327.1dp"
+            android:layout_marginTop="223.1dp" />
+
+</RelativeLayout>

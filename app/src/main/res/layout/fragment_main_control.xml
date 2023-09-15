@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainControlFragment">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/riving_btn"-->
+    <!--        android:layout_width="144dp"-->
+    <!--        android:layout_height="138dp"-->
+    <!--        android:layout_marginStart="33dp"-->
+    <!--        android:background="@drawable/main_btn_selected"-->
+    <!--        android:drawableTop="@drawable/main_btn_icon_selected"-->
+    <!--        android:paddingTop="21dp"-->
+    <!--        android:text="거실등"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <LinearLayout
+        android:id="@+id/btn_living_light"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="33dp"
+        android:background="@drawable/main_btn_selected"
+        android:orientation="vertical"
+        android:paddingTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/main_btn_icon_selected">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/spoqahansansneo_bold"
+            android:text="거실등"
+            android:textColor="#ffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0.6"
+            android:fontFamily="@font/spoqahansansneo_medium"
+            android:text="켜짐"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/imageButton2"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/near_btn_ripple"
+        android:drawableTop="@drawable/light_size"
+        android:paddingTop="21dp"
+        android:text="간접등"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/imageButton3"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/img_main_widget_bg_on"
+        android:drawableTop="@drawable/lighton_size"
+        android:paddingTop="21dp"
+        android:text="복도등"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_living_light" />
+
+    <Button
+        android:id="@+id/imageButton4"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/img_main_widget_off"
+        android:drawableTop="@drawable/light_size"
+        android:paddingTop="21dp"
+        android:text="일괄소등"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <Button
+        android:id="@+id/imageButton5"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="33dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/img_main_widget_off"
+        android:drawableTop="@drawable/air_size"
+        android:paddingTop="21dp"
+        android:text="냉방제어"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <Button
+        android:id="@+id/imageButton6"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/img_main_widget_bg_on"
+        android:drawableTop="@drawable/ven_size"
+        android:paddingTop="21dp"
+        android:text="환기제어"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <Button
+        android:id="@+id/imageButton7"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="33dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/img_main_widget_off"
+        android:drawableTop="@drawable/power_size"
+        android:paddingTop="21dp"
+        android:text="대기전력"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+
+    <Button
+        android:id="@+id/imageButton8"
+        android:layout_width="144dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/img_main_widget_bg_on"
+        android:drawableTop="@drawable/ele_size"
+        android:paddingTop="21dp"
+        android:text="엘리베이터콜"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

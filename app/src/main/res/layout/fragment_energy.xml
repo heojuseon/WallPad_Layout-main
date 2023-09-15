@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnergyFragment">
+
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="60dp"
+        android:layout_height="72dp"
+        android:layout_gravity="start|center_vertical"
+        android:background="@drawable/main_btn_left_dim" />
+
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="60dp"
+        android:layout_height="72dp"
+        android:layout_gravity="end|center_vertical"
+        android:background="@drawable/main_btn_right_nor" />
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/progress_pager"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center">
+
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainfragment_container"
+    android:layout_width="1280dp"
+    android:layout_height="800dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/button10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="735dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/main_ic_set"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button14"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/main_ic_set"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button15"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/main_ic_apps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 날씨 영역 -->
+    <RelativeLayout
+        android:id="@+id/weather_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="827dp"
+        android:layout_marginBottom="433dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <!-- 에너지 사용량 -->
+    <FrameLayout
+        android:id="@+id/energy_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="827dp"
+        android:layout_marginBottom="128dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </FrameLayout>
+
+
+    <!--  세부 제어 영역  -->
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/detailcontrol_gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="834dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="139dp"
+        android:background="@drawable/img_main_grid_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <!--  메인 제어 영역  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/maincontrol_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="453dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginRight="446dp"
+        android:layout_marginBottom="139dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
