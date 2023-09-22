@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "프래그먼트 추가");
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.fragment_container, new MainFragment()).commit();
+        fragmentTransaction.replace(R.id.fragment_container, new MainFragment()).commit();
 
 
         //네비게이션 바 제거(fullScreen)
