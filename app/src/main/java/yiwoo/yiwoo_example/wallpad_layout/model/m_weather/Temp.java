@@ -1,4 +1,4 @@
-package yiwoo.yiwoo_example.wallpad_layout.model;
+package yiwoo.yiwoo_example.wallpad_layout.model.m_weather;
 
 
 import java.util.Random;

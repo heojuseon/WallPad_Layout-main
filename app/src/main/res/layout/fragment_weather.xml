@@ -9,7 +9,7 @@
 <!--                    type="String" />-->
 
                 <variable
-                    name="weather"
+                    name="vm"
                     type="yiwoo.yiwoo_example.wallpad_layout.viewmodel.WeatherViewModel" />
         </data>
 
@@ -85,16 +85,16 @@
 
                 <TextView
                     android:id="@+id/state_weather"
-                    app:fontFamily="@font/spoqahansansneo_bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="56dp"
+                    android:layout_height="22dp"
                     android:layout_marginStart="37.3dp"
                     android:layout_marginTop="212.9dp"
                     android:gravity="center_horizontal"
-                    android:text="@{weather.state_weather}"
+                    android:text="@{vm.state_weather}"
                     android:textColor="#ffffff"
                     android:textSize="15sp"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+                    app:fontFamily="@font/spoqahansansneo_bold" />
 
                 <TextView
                     android:id="@+id/textView16"
@@ -260,7 +260,7 @@
                     android:layout_marginStart="131.2dp"
                     android:layout_marginTop="141.4dp"
                     android:gravity="center_horizontal"
-                    android:text="@{weather.live_temp}"
+                    android:text="@{vm.result_temp}"
                     android:textColor="#ffffff"
                     android:textSize="51sp"
                     android:textStyle="normal" />
@@ -272,7 +272,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="131dp"
                     android:layout_marginTop="215.9dp"
-                    android:text="@{weather.high_temp}"
+                    android:text="@{vm.result_Max_temp}"
                     android:textColor="#ffffff"
                     android:textSize="16sp"
                     android:textStyle="normal" />
@@ -296,7 +296,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173.4dp"
                     android:layout_marginTop="215.9dp"
-                    android:text="@{weather.low_temp}"
+                    android:text="@{vm.result_Min_temp}"
                     android:textColor="#ffffff"
                     android:textSize="16sp"
                     android:textStyle="normal" />
